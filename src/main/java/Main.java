@@ -22,6 +22,11 @@ public class Main {
         //second task: special class
         System.out.println(car.model);
 
+        TestClass i1 = TestClass.getInstance();
+        TestClass i2 = TestClass.getInstance();
+
+        System.out.println(i1==i2);
+
 
 
 
